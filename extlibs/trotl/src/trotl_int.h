@@ -528,7 +528,7 @@ struct TROTL_EXPORT SqlNumber : public SqlValue
 		return ret.str();
 	};
 
-protected:
+//protected:
 	//oraclenumber _val;
 	OCINumber _val;
 	OciEnv &_env;
